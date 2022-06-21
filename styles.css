@@ -1,0 +1,84 @@
+/*Clases*/
+.contentWrapper{
+    background-color: rgb(234,234,234);
+    height: 2450px;
+    width: 1370px;
+    position: absolute;
+    top: 40px;
+    left: 280px;
+}
+.feedWrapper{
+    display: block;
+}
+div#photosDiv > div{
+    background-color: white;
+    position: relative;
+    height: 520px;
+    width: 580px;
+    box-sizing: border-box;
+}
+.photoPosition1{
+    top: 60px;
+    left: 380px;
+    display: block;
+}
+.photoPosition2{
+    top: 120px;
+    left: 380px;
+}
+.photoPosition3{
+    top: 180px;
+    left: 380px;
+}
+.photoPosition4{
+    top: 240px;
+    left: 380px;
+}
+.imageSize{
+    background-size:cover;
+    width: 580px;
+    height: 400px;
+}
+.image1{
+    background-image: url('https://scontent.fuio1-2.fna.fbcdn.net/v/t31.18172-8/18738823_281119928965375_6293320926966780378_o.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=YTzRcpvxsgwAX-UeqDp&_nc_ht=scontent.fuio1-2.fna&oh=00_AT_VlCuDGY2eZPBNbS6jrGX3k31XHZ7U4NkBzOsf_Ux3iw&oe=62D57F3F');
+}
+.image2{
+    background-image: url('https://scontent.fuio1-2.fna.fbcdn.net/v/t39.30808-6/259110681_412468277247487_1195799676153739521_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=TcPEBrjQXusAX951Qvz&_nc_ht=scontent.fuio1-2.fna&oh=00_AT-sFHz67mX4t4UZXtyamJp5JHxeH90z71P8-BJ5_el20Q&oe=62B6FE4F');
+}
+.image3{
+    background-image: url('https://scontent.fuio1-2.fna.fbcdn.net/v/t39.30808-6/269716155_442982834196031_6973473843852422366_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=hXRvdgl_xfIAX8uh_uN&_nc_ht=scontent.fuio1-2.fna&oh=00_AT-ooLS9ETTZvNTXmJ76SIlMoS0c13UEGYTepmnGKqxi7A&oe=62B7920C');
+}
+.image4{
+    background-image: url('https://scontent.fuio1-1.fna.fbcdn.net/v/t39.30808-6/266478382_423530742807907_6527862227720435177_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=9267fe&_nc_ohc=C6gMELhGoxUAX9UcSD9&_nc_ht=scontent.fuio1-1.fna&oh=00_AT8ZVN9grXuaVhSepeT34uhX2xGcUTOWiB5JJKIX-N0ZHw&oe=62B71E1F');
+}
+.photoHeader{
+    display: flex;
+}
+
+/* Elementos html */
+body{
+    background-color: black;
+}
+h1{
+    padding-left: 380px;
+    font-size: 35px;
+}
+h2{
+    position: relative;
+    font-size: 20px;
+    left: 25px;
+    top: 3px;
+}
+h3{
+    color: rgb(118, 194, 196);
+    position: relative;
+    font-size: 18px;
+    left: 155px;
+    top: 3px;
+    width: 50%;
+}
+p{
+    position: absolute;
+    left: 25px;
+    right: 30px;
+}
